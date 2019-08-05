@@ -28,20 +28,3 @@ function convertToBase(item1, item2, item3) {
 
 	}
 }
-
-
-//Solo Function for converting rgb to hex
-function rgbToHex (r, g, b) {
-	let num1 = r.toString(16);
-	let num2 = g.toString(16);
-	let num3 = b.toString(16);
-	return "#" + num1 + num2 + num3;
-}
-
-//Solo Function for converting hex to rgb
-function hexToRgb (hex1, hex2, hex3) {
-	let num1 = parseInt(hex1, 16);
-	let num2 = parseInt(hex2, 16);
-	let num3 = parseInt(hex3, 16);
-	return (`rgb{${num1},${num2},${num3}}`)
-}
